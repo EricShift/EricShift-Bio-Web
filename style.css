@@ -1,41 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Roboto:ital,wght@0,300;1,100&display=swap');
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Eric's Bio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/feather-icons"></script>
-</head>
+/* universal selector */
 
-<body>
-    <img class="pic" src="https://media.licdn.com/dms/image/D4D03AQFmXWSM-IuTgg/profile-displayphoto-shrink_800_800/0/1680107040560?e=1687392000&v=beta&t=t5BW49y5DzK_NycQiFP02D5KuL_hkzyWcWNBRHDadSc" alt="">
-    <h1> <i>Eric Mutisse</i> </h1>
-    <h2 id="my-heading"> <i>About Me</i></h2>
-    <p class="text_font">I'm an Electrical Engineer in Computer Systems graduate at the Vaal University of Technology, currently on a leanership <a href="https://www.dell.com/en-za/lp" target="_bla
-        "> @Dell Technologies</a> as an Administrative Sales Representative(ASR). I'm also an IT Technician freelancer, feel free to engage with me through the below social media plat forms or reach out through Whatsapp.
-    </p>
-    <div>
-        <a target="_blank" href="https://twitter.com/Error_sudo?t=C2fb8R9-IZX3HmMjJ6CvBw&s=09"><i data-feather="twitter"></i></a>
-        <a target="_blank" href="https://www.facebook.com/HotMansEric?mibextid=ZbWKwL"><i data-feather="facebook"></i></a>
-        <a target="_blank" href="https://instagram.com/eric_mutisse?igshid=ZDdkNTZiNTM="><i data-feather="instagram"></i></a>
-        <a target="_blank" href="https://www.linkedin.com/in/eric-mutisse-75a6bb226"><i data-feather="linkedin"></i></a>
-        <a target="_blank" href="https://www.youtube.com/@eric_blackprnt7245"><i data-feather="youtube"></i></a>
-
-    </div>
-
-    <a class="btn" href="mailto:ericthabiso55@gmail.com" target="_blank"> <b>Email me</b> </a>
-    <a class="btn" href="https://wa.me/27729513707" target="_blank"> <b>Whatsapp me</b> </a>
-    <a class="btn" href="mailto:ericthabiso55@gmail.com" target="_blank"> <b>Hire me</b></a>
-    <a class="btn" href="https://ericmutisse.carrd.co/" target="_blank"> <b>View Website</b> </a>
+* {
+    text-align: center;
+    font-family: 'Instrument Serif', serif;
+    font-family: 'Roboto', sans-serif;
+}
 
 
-    <script>
-        feather.replace()
-    </script>
+/* element selector */
 
-</body>
+h1 {
+    color: rgb(37, 219, 37)
+}
 
-</html>
+
+/* id selector */
+
+#my-heading {
+    color: rgb(32, 201, 32)
+}
+
+
+/* class selector */
+
+.text_font {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+.pic {
+    width: 50%;
+    border-radius: 60%;
+}
+
+body {
+    background: rgb(0, 27, 0);
+    color: rgb(105, 207, 105);
+    font-family: 'Instrument Serif', serif;
+    padding: 15%;
+}
+
+.btn {
+    font-size: small;
+    display: block;
+    width: 20%;
+    color: black;
+    background: #76bb27;
+    padding: 10px 10%;
+    margin: 20px 30%;
+    box-shadow: 6px 10px green;
+    text-align: center;
+}
