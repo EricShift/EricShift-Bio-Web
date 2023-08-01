@@ -52,12 +52,12 @@ body {
 }
 
 .icn:hover {
-    background: lightgreen;
+    color: lightgreen;
     transition: 0.3s;
 }
 
 .icnf:hover {
-    background: lightgreen;
+    color: lightgreen;
     transition: 0.3s;
 }
 
