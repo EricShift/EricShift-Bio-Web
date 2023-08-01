@@ -51,6 +51,16 @@ body {
     transition: 0.3s;
 }
 
+.icn:hover {
+    background: lightgreen;
+    transition: 0.3s;
+}
+
+.icnf:hover {
+    background: lightgreen;
+    transition: 0.3s;
+}
+
 .icn {
     margin: 1px;
     cursor: pointer;
