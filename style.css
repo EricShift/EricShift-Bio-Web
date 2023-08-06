@@ -7,7 +7,10 @@
     font-family: 'Instrument Serif', serif;
     font-family: 'Roboto', sans-serif;
 }
-
+.pic {
+    width: 30%;
+    border-radius: 100%;
+}
 
 /* element selector */
 
@@ -15,6 +18,9 @@ h1 {
     color: rgb(37, 219, 37);
 }
 
+p{
+  font-size: medium;  
+}
 
 /* id selector */
 
@@ -34,10 +40,7 @@ a {
     color: green;
 }
 
-.pic {
-    width: 30%;
-    border-radius: 100%;
-}
+
 
 body {
     background: rgb(0, 27, 0);
