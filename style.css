@@ -11,17 +11,23 @@
     
 }
 
+.about{
+    padding-top: 10%;
+}
+.contact{
+    padding-top: 10%;  
+}
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 56px;
     padding: 3px 30px;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .nav-item {
-    padding: 3px 3px;
+    padding: 1% 3px;
     cursor: pointer;
 }
 
@@ -49,7 +55,8 @@ h1 {
 /* class selector */
 
 .text_font {
-    font-size: 15px;
+    padding: 0% 15px;
+    font-size: 18px;
 }
 /* p{
     font-size: 1.2rem;  
