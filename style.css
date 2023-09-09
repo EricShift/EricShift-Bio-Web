@@ -3,24 +3,39 @@
 /* universal selector */
 
 * {
+    margin: 0%;
+    padding: 0%;
     text-align: center;
     font-family: 'Instrument Serif', serif;
     font-family: 'Roboto', sans-serif;
 }
-.pic {
-    width: 30%;
-    border-radius: 100%;
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    padding: 3 32px;
 }
 
+.nav-item {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    background-color: lightgreen;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+}
 /* element selector */
 
 h1 {
     color: rgb(37, 219, 37);
 }
 
-p{
-  font-size: medium;  
-}
 
 /* id selector */
 
@@ -32,21 +47,26 @@ p{
 /* class selector */
 
 .text_font {
-    font-size: small;
+    font-size: 15px;
 }
-
+/* p{
+    font-size: 1.2rem;  
+} */
 a {
     text-decoration: none;
     color: green;
 }
 
-
+.pic {
+        width:15%;
+        border-radius: 80%;
+}
 
 body {
     background: rgb(0, 27, 0);
     color: rgb(105, 207, 105);
     font-family: 'Instrument Serif', serif;
-    padding: 15%;
+    padding: 15px;
 }
 
 .btn:hover {
@@ -67,6 +87,7 @@ body {
 .icn {
     margin: 1px;
     cursor: pointer;
+    padding-top: 10px;
 }
 
 .icnf {
@@ -74,14 +95,15 @@ body {
     cursor: pointer;
 }
 
+
 .btn {
     font-size: small;
     display: block;
     width: 20%;
     color: black;
     background: #76bb27;
-    padding: 7px 30%;
-    margin: 20px 10%;
+    padding: 7px 10%;
+    margin: 20px 30%;
     box-shadow: 6px 10px green;
     text-align: center;
     cursor: pointer;
