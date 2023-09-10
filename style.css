@@ -78,6 +78,11 @@ body {
     padding: 15px;
 }
 
+.navv:hover {
+    background: lightgreen;
+    transition: 0.3s;
+}
+
 .btn:hover {
     background: lightgreen;
     transition: 0.3s;
@@ -103,7 +108,18 @@ body {
     margin: -8px;
     cursor: pointer;
 }
-
+.navv {
+    font-size: small;
+    display: block;
+    width: 100%;
+    color: black;
+    background: #76bb27;
+    padding: 3px 1px;
+    margin: 10px 1px;
+    box-shadow: 5px 5px green;
+    text-align: center;
+    cursor: pointer;
+}
 
 .btn {
     font-size: small;
