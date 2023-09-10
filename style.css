@@ -14,9 +14,18 @@
 .about{
     padding-top: 10%;
 }
+.about p{
+    padding: 0% 15px;
+    font-size: 18px;
+}
 .con{
     padding-top: 8%;  
 }
+.con p{
+    padding: 0% 15px;
+    font-size: 18px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
