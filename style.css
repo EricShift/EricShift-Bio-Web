@@ -14,15 +14,15 @@
 .about{
     padding-top: 10%;
 }
-.contact{
-    padding-top: 10%;  
+.con{
+    padding-top: 8%;  
 }
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 56px;
-    padding: 3px 30px;
+    padding: 0px 30px;
     font-size: 18px;
     padding-bottom: 10%;
 }
