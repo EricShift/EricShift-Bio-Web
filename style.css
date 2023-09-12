@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Roboto:ital,wght@0,300;1,100&display=swap');
 
 /* universal selector */
-
 * {
     margin: 0%;
     padding: 0%;
@@ -9,6 +8,73 @@
     font-family: 'Instrument Serif', serif;
     font-family: 'Roboto', sans-serif;
     
+}
+
+/* element selector */
+h1 {
+    color: rgb(37, 219, 37);
+}
+/* id selector */
+#my-heading {
+    color: rgb(32, 201, 32);
+}
+/* class selector */
+.text_font {
+    padding: 0% 15px;
+    font-size: 18px;
+}
+
+body {
+    background: rgb(0, 27, 0);
+    color: rgb(105, 207, 105);
+    font-family: 'Instrument Serif', serif;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 20px;
+    /* padding: 0px 30px; */
+    font-size: 18px;
+    padding-bottom: 10%;
+}
+
+.navv {
+    font-size: small;
+    /* display: block; */
+    width: 150%;
+    color: black;
+    background: #76bb27;
+    padding: 3px 15px;
+    margin: 10px 3px;
+    box-shadow: 5px 5px green;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav-item {
+    padding: 1% 3px;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    background-color: lightgreen;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+.pic {
+        width:15%;
+        border-radius: 80%;
 }
 
 .about{
@@ -24,67 +90,6 @@
 .con p{
     padding: 0% 15px;
     font-size: 18px;
-}
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 56px;
-    padding: 0px 30px;
-    font-size: 18px;
-    padding-bottom: 10%;
-}
-
-.nav-item {
-    padding: 1% 3px;
-    cursor: pointer;
-}
-
-.nav-item:hover {
-    background-color: lightgreen;
-    border-top-left-radius: 9999px;
-    border-top-right-radius: 9999px;
-    border-bottom-left-radius: 9999px;
-    border-bottom-right-radius: 9999px;
-}
-/* element selector */
-
-h1 {
-    color: rgb(37, 219, 37);
-}
-
-
-/* id selector */
-
-#my-heading {
-    color: rgb(32, 201, 32);
-}
-
-
-/* class selector */
-
-.text_font {
-    padding: 0% 15px;
-    font-size: 18px;
-}
-/* p{
-    font-size: 1.2rem;  
-} */
-a {
-    text-decoration: none;
-    color: green;
-}
-
-.pic {
-        width:15%;
-        border-radius: 80%;
-}
-
-body {
-    background: rgb(0, 27, 0);
-    color: rgb(105, 207, 105);
-    font-family: 'Instrument Serif', serif;
-    padding: 15px;
 }
 
 .navv:hover {
@@ -119,18 +124,6 @@ body {
 
 .icnf {
     margin: -8px;
-    cursor: pointer;
-}
-.navv {
-    font-size: small;
-    display: block;
-    width: 150%;
-    color: black;
-    background: #76bb27;
-    padding: 3px 1px;
-    margin: 10px 1px;
-    box-shadow: 5px 5px green;
-    text-align: center;
     cursor: pointer;
 }
 
